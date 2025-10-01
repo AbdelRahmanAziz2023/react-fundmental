@@ -1,3 +1,12 @@
+React Fundamentals Demo
+This project is a simple, visually appealing React application that introduces the core concepts of React. It demonstrates:
+
+Component-based architecture: The UI is split into reusable components for modularity and clarity.
+Tabbed content: Interactive tabs explain key React concepts like Components, JSX, Props, State, and Hooks.
+Pros section: Highlights the main advantages of using React, such as performance, reusability, and community support.
+Modern styling: Clean, responsive design using CSS for a professional look.
+The project is built with Vite for fast development and includes ESLint for code quality. It’s ideal for beginners learning React or as a template for educational purposes.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
