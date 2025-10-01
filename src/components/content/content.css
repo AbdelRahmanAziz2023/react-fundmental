@@ -1,0 +1,67 @@
+.content-container {
+    margin: 32px auto;
+    padding: 48px 32px;
+    min-height: 20vh;
+    max-width: 950px;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.22);
+    transition: box-shadow 0.3s;
+    backdrop-filter: blur(2px);
+}
+
+.content-container:hover {
+  box-shadow: 0 12px 40px rgba(86, 130, 177, 0.28);
+}
+
+.tab {
+    display: flex;
+    margin-bottom: 28px;
+    border-radius: 8px;
+    gap: 12px;
+    
+    padding: 6px 0;
+    box-shadow: 0 2px 8px rgba(86, 130, 177, 0.08);
+}
+
+.tab button {
+    color: #ffe8db;
+    background: linear-gradient(90deg, #5682b1 0%, #739EC9 100%);
+    border: none;
+    padding: 12px 32px;
+    font-size: 1.08rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(86, 130, 177, 0.12);
+    letter-spacing: 0.5px;
+    transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+.tab button:hover {
+    background: #ffe8db;
+    color: #5682b1;
+    transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(86, 130, 177, 0.28);
+}
+
+.tab button.active {
+    background: #ffe8db;
+    color: #5682b1;
+    transform: scale(0.98);
+}
+
+.content {
+    padding: 28px;
+    font-size: 1.15rem;
+    color: #ffe8db;
+    line-height: 1.8;
+    border: #5682b1 2px solid;
+    border-radius: 16px;
+    background: rgba(86, 130, 177, 0.10);
+    box-shadow: 0 2px 12px rgba(86, 130, 177, 0.10);
+    transition: box-shadow 0.2s;
+}
+
+.content:hover {
+    box-shadow: 0 4px 20px rgba(86, 130, 177, 0.18);
+}
